@@ -1,4 +1,4 @@
-package dua
+package dua.konstruktor
 
 class PersonA (_firstName: String, _lastName: String, _age: Int) {
     var firstName: String

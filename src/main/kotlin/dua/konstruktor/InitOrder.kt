@@ -1,4 +1,4 @@
-package dua
+package dua.konstruktor
 
 class InitOrder(name: String) {
     val firstProperty = "First property: $name".also(::println)
