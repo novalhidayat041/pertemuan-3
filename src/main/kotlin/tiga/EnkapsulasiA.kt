@@ -1,5 +1,5 @@
 package tiga
-
+//enkapsulasi a
 class Employe(_id: Int, _name: String, _age: Int) {
     val id: Int = _id
         get() = field
