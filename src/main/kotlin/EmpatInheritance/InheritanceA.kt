@@ -1,4 +1,4 @@
-package TigaInheritance
+package EmpatInheritance
 
 //Parent class
 open class Computer(val name: String,
