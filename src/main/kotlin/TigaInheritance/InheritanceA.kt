@@ -5,7 +5,7 @@ open class Computer(val name: String,
                     val brand: String) {
 }
 
-//Child class (initializes the parent class)
+//Child class (initializes the parent class).
 class Laptop(name: String,
              brand: String,
              val batteryLife: Double) :Computer(name, brand) {
