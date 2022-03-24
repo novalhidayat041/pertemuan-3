@@ -1,6 +1,7 @@
 import satu.Greeter
 
 fun main() {
+    //memamannggil atribut yang ada didalam class
     val greeter = Greeter()
     greeter.greet()
     greeter.text = "Hi"

@@ -1,6 +1,7 @@
 package satu
 
 class Greeter {
+    //membuat class greeter untuk menyimpan atribut
     var text: String = ""
     fun greet() {
         println("Hello Object world")
