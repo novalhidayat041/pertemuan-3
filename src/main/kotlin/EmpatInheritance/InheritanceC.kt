@@ -1,6 +1,6 @@
 package EmpatInheritance
 
-//Overriding Function
+//Overriding Function.
 //Kotlin membutuhkan eksplisit akses modifier untuk meng-override fungsi pada kelas induk yaitu
 //akses modifier open.
 
