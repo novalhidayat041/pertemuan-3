@@ -22,7 +22,7 @@ class SoftwareEngineer : EmployeeD() {
 }
 
 class ProjectManager : EmployeeD() {
-    // Gunakan pengubah. "override" untuk mengganti properti kelas dasar
+    // Gunakan pengubah "override" untuk mengganti properti kelas dasar
     override val baseSalary: Int = 8000000
 }
 fun toRupiahFormat(baseSalary: Int) : String{
