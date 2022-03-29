@@ -7,22 +7,22 @@ import java.text.NumberFormat
 import java.util.*
 
 open class EmployeeD {
-    // Use "open" modifier to allow child classes to override this property
+    // Gunakan pengubah "terbuka" untuk mengizinkan kelas anak menimpa properti ini
     open val  baseSalary: Int = 3000000
 }
 
 class Programmer : EmployeeD() {
-    // Use "override" modifier to override the property of base class
+    // Gunakan pengubah "override" untuk mengganti properti kelas dasar
     override val baseSalary: Int = 5000000
 }
 
 class SoftwareEngineer : EmployeeD() {
-    //Use "override" modifier to override the property of base class
+    //Gunakan pengubah "override" untuk mengganti properti kelas dasar
     override val baseSalary: Int = 6000000
 }
 
 class ProjectManager : EmployeeD() {
-    // Use "override" modifier to override the property of base class
+    // Gunakan pengubah "override" untuk mengganti properti kelas dasar
     override val baseSalary: Int = 8000000
 }
 fun toRupiahFormat(baseSalary: Int) : String{
