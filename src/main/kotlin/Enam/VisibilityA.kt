@@ -1,4 +1,4 @@
-package EnamVisibilityModifier
+package Enam
 
 //Private
 private class privateExample {
