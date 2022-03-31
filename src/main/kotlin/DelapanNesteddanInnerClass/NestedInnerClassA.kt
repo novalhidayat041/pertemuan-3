@@ -3,7 +3,6 @@ package DelapanNesteddanInnerClass
 //Inner class adalah nested class yang memiliki kata kunci inner dalam pendeklarasiannya. Inner
 //class berbeda dengan nested class, sebuah inner class dapat mengakses data member dari kelas
 //luar.
-
 class OuterA {
     val a = "Outside Nested class."
     inner class Inner {
