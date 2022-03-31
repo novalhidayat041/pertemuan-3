@@ -1,5 +1,8 @@
 package TujuhInterface
 
+//Implementasi Interface
+//Contoh kode program interface
+
 interface MyInterface{
     var str: String
     fun demo()
