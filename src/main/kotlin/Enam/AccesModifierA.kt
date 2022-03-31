@@ -1,6 +1,4 @@
 package Enam
-//Kelas Abstrak adalah kelas yang tidak bisa di Instansiasi menjadi sebuah objek, akan tetapi ia
-//bisa diwariskan ke kelas yang lainnya.
 
 open class Mahasiswa(var nama: String, var nrp: Int){
     open fun info() {
