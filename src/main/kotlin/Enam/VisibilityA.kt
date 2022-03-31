@@ -1,6 +1,6 @@
 package Enam
 
-//Private
+//Private.
 private class privateExample {
     private val i = 1
     private fun doSomething() {
